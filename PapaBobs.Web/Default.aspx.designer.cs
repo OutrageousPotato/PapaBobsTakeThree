@@ -139,6 +139,15 @@ namespace PapaBobs.Web {
         protected global::System.Web.UI.WebControls.Button orderButton;
         
         /// <summary>
+        /// ValidationLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label ValidationLabel;
+        
+        /// <summary>
         /// totalLabel control.
         /// </summary>
         /// <remarks>

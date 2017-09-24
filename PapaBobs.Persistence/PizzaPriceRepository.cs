@@ -22,7 +22,7 @@ namespace PapaBobs.Persistence
             var dto = new DTO.PizzaPriceDTO();
 
             dto.SmallSizeCost = pizzaPrice.SmallSizeCost;
-            dto.MediumSizeCost = pizzaPrice.MediumSizeCost;
+            dto.MediumSizeCost = pizzaPrice.MediumSizeCsot;
             dto.LargeSizeCost = pizzaPrice.LargeSizeCost;
             dto.ThickCrustCost = pizzaPrice.ThickCrustCost;
             dto.ThinCrustCost = pizzaPrice.ThinCrustCost;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PapaBobs.Domain
 {
-    class PizzaPriceManager
+    public class PizzaPriceManager
     {
         public static decimal CalculateCost(DTO.OrderDTO order)
         {
@@ -15,7 +15,7 @@ namespace PapaBobs.Domain
             cost += calculateSizeCost(order, prices);
             cost += calculateCrustCost(order, prices);
             cost += calculateToppings(order, prices);
-            return 0M;
+            return cost;
         }
 
         private static decimal calculateSizeCost(DTO.OrderDTO order, DTO.PizzaPriceDTO prices)
